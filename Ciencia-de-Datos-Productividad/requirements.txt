@@ -1,1 +1,8 @@
-pandas\nnumpy\nmatplotlib\nseaborn\nscikit-learn\nnltk\ntextblob\nflask
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+nltk
+textblob
+flask

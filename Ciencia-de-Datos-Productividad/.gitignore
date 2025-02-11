@@ -1,0 +1,34 @@
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+#Virtualenv
+env/
+venv/
+
+# Cache, migrations
+**/migrations/**
+*.pyc
+__ pycache __
+__pycache__/*
+**/migrations/**
+**/**/migrations/**
+/**/**/migrations/**
+/apps/**/migrations/**
+
+
+#Media 
+media/
+
+#SQlite Database
+db.sqlite3
+*.sqlite3
+
+
+ProspectiaRS/__pycache__/
+*.DShe__/*
+.DS_Store
+
+/env
+/media
