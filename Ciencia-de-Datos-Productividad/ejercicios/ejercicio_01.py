@@ -1,13 +1,20 @@
 import pandas as pd
 
 # Crear DataFrame con datos ficticios
-data = {
-    "fecha": pd.date_range(start="2024-01-01", periods=10, freq="D"),
-    "horas_trabajadas": [6, 7, 5, 8, 4, 6, 7, 8, 5, 6],
-    "tareas_completadas": [3, 4, 2, 5, 1, 3, 4, 5, 2, 3]
-}
-
-df = pd.DataFrame(data)
+# Datos estáticos para 10 días (ajústalos según tu necesidad)
+datos = [
+    ["2024-02-01", "Trabajo", 8, 4],
+    ["2024-02-02", "Trabajo", 7, 5],
+    ["2024-02-03", "Scouts", None, None],  # Sábado
+    ["2024-02-04", "Scouts", None, None],  # Domingo
+    ["2024-02-05", "Trabajo", 6, 4],
+    ["2024-02-06", "Trabajo", 8, 6],
+    ["2024-02-07", "Trabajo", 7, 4],
+    ["2024-02-08", "Trabajo", 9.5, 5],
+    ["2024-02-09", "Trabajo", 6, 4],
+    ["2024-02-10", "Scouts", None, None],  # Sábado
+]
+df = pd.DataFrame(datos, columns=["Fecha", "Actividad", "Horas_Trabajadas", "Tareas_Completadas"])
 
 # Guardar en CSV
 df.to_csv("Ciencia-de-Datos-Productividad/ejercicios/datos_productividad.csv", index=False)
