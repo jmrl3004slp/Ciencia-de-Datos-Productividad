@@ -1,7 +1,8 @@
 # Ejercicios de Ciencia de Datos
-Este directorio contiene 45 ejercicios progresivos de Ciencia de Datos aplicados a la optimización de productividad.
-\n## 📌 Lista de Ejercicios
-\n### 🔰 Nivel 1: Fundamentos de Ciencia de Datos (Ejercicios 1-15)
+Este directorio contiene 45 ejercicios progresivos de Ciencia de Datos aplicados a la optimización de productividad personal.
+
+## 📌 Lista de Ejercicios
+### 🔰 Nivel 1: Fundamentos de Ciencia de Datos (Ejercicios 1-15)
 - 1️⃣ Recopilar datos de productividad
 - 2️⃣ Crear Base de Datos SQLite
 - 3️⃣ Análisis Estadístico
@@ -12,7 +13,8 @@ Este directorio contiene 45 ejercicios progresivos de Ciencia de Datos aplicados
 - 8️⃣ Predicción con Regresión Lineal
 - 9️⃣ Clustering de Días Productivos
 - 🔟 Análisis de Sentimientos
-\n### 🚀 Nivel 2: Modelado Predictivo y Machine Learning (Ejercicios 16-30)
+
+### 🚀 Nivel 2: Modelado Predictivo y Machine Learning (Ejercicios 16-30)
 - 1️⃣1️⃣ Predicción de Productividad con Múltiples Variables
 - 1️⃣2️⃣ Clasificación de Productividad
 - 1️⃣3️⃣ Predicción de Fatiga
@@ -23,7 +25,8 @@ Este directorio contiene 45 ejercicios progresivos de Ciencia de Datos aplicados
 - 1️⃣8️⃣ Predicción de Distracciones
 - 1️⃣9️⃣ Análisis de Uso de Redes Sociales
 - 2️⃣0️⃣ Modelado de Productividad vs. Horas Dormidas
-\n### 🧠 Nivel 3: Deep Learning, Big Data y Optimización (Ejercicios 31-45)
+
+### 🧠 Nivel 3: Deep Learning, Big Data y Optimización (Ejercicios 31-45)
 - 2️⃣1️⃣ Implementación de Redes Neuronales
 - 2️⃣2️⃣ Optimización de Finanzas Personales
 - 2️⃣3️⃣ Implementación de un Data Lake
